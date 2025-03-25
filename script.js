@@ -2,8 +2,7 @@ const { ethers } = require("ethers");
 const fs = require("fs");
 
 const RPC_URL = "https://testnet-rpc.monad.xyz";
-const PRIVATE_KEY =
-  "1dcf6bcbc3557478e456c215e7c51f836cd41ca65b59f152c80694e7edebb49a";
+const PRIVATE_KEY = "";
 const NFT_CONTRACT_ADDRESS = "0x5A21b0F4a4f9B54e16282b6ed5AD014B3C77186F";
 const GAS_LIMIT = 300000;
 const GAS_PRICE = ethers.parseUnits("50", "gwei");
